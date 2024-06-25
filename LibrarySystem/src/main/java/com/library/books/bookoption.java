@@ -26,4 +26,8 @@ public class bookoption{
         this.qty = sc.nextInt();
         qtycopy = this.qty;
     }
+    
+    public String toString() {
+        return "Book [sno=" + sno + ", bookname=" + bookname + ", author=" + author + ", qty=" + qty + ", qtycopy=" + qtycopy + "]";
+    }
 }

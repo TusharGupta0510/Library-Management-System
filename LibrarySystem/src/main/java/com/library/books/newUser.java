@@ -20,5 +20,10 @@ public class newUser {
         System.out.println("Enter the customer's E-mail:");
         this.email = sc.nextLine();
 	}
+	
+	public String toString() {
+		return "User [UID= "+ UID + ", Username= "+ Username+ ", E-mail= "+ email+ "]";
+	}
+	
 }
 
